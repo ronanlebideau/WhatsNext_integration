@@ -38,7 +38,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color:#DB8041;
-  padding:10px 25px;
+  padding:10px 15px;
   font-size: 1rem;
 }
 .brand{
@@ -46,6 +46,7 @@ header{
 }
 nav ul{
   list-style: none;
+  width:80%;
 }
 .connect{
   font-weight: normal;
@@ -69,13 +70,13 @@ main{
   align-items: center;
 }
 .hero{
-  width:100%;
+  width:80vw;
   display:flex;
   flex-direction: row;
   justify-content: center;
   align-items:center;
-  padding:50px 0;
-  background:url(../img/hero.jpg) no-repeat fixed center;
+  padding:50px 10vw;
+  background:url(../img/hero.jpg) repeat-x fixed center;
   background-size: cover;
 }
 .hero-img img{
@@ -106,7 +107,6 @@ main{
   display:flex;
   flex-direction: column;
   max-width:480px;
-  padding:0 40px;
 }
 .hero-txt strong{
   font-size: 1.5rem;
